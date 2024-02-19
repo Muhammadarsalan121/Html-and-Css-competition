@@ -16,7 +16,7 @@ body{
 }
 .logo{
     align-content: center
-    width: 10vh
+    
 }
 .d-flex{
     display: flex;
@@ -102,9 +102,17 @@ a{
     background-color: white;
     border: red;
 }
-@media(min-width:984){
+@media(max-width:984px){
     .logo{
         width: 20px;
+        display: none;
+
+    }
+    .button-2{
+        display: none;
+
+    }
+    .sign-in-button{
         display: none;
     }
 }
