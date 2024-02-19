@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar started -->
+        <header>
+            <div class="d-flex justify-around margin-top-1 wrap">
+                <div>
+                    <i class="fa-solid fa-bars nav-bars "></i>
+                </div>
+    
+                <div  class="logo center padding-left-1 wrap">
+                    <img width="40%" src="data:image/png;base64,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" alt="">
+                </div>
+                <div >
+                    <button class="sign-in-button" type="submit">Sign Up/sign In</button>
+                    <button class="button-2" type="submit">$0.00</button>
+                </div>
+    
+    
+
+            </div>
+            <div class="d-flex margin-left-2 wrap">
+                <i class="fa-solid fa-location-dot"></i>
+            <h3 class="padding-left-2"> <b>For Availibilty <a href="#">choose location</a></b> </h3>
+            </div>
+            <hr>
+            
+
+
+
+        </header>
+        <!-- Navbar ended -->
+
+        <!-- Main Area -->
+        <section>
+            <div class="d-flex margin-top-2 justify-between">
+                <div >
+                    <h1 class="main-text-1">Start your BK <span class="text-small"><sup>®</sup></span> order.</h1>
+                </div>
+                
+                <div class=" d-flex flex-end"><img width="70%"  src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/b5984bead760d0046d44a327c34f7da9a9e68437-1600x900.jpg?w=1350&q=90&fit=max&auto=format" alt=""></div>
+            </div>
+
+            <div>
+                <button class="button-3" type="submit">Order Pickup</button>
+                <button type="submit">order Delivery</button>
+            </div>
+
+
+
+
+
+
+        </section>        
+
+
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/e7a424b0c2.js" crossorigin="anonymous"></script>
+</body>
+</html>

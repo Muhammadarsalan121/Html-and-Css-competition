@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5ebdc;
+   
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.container{
+
+    padding: 0 100px 0 100px;
+}
+.logo{
+    align-content: center
+    width: 10vh
+}
+.d-flex{
+    display: flex;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.center{
+    justify-content: center;
+    
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.margin-top-1{
+    margin-top: 20px;
+}
+.margin-left-2{
+    margin-left:45px;
+}
+.margin-top-2{
+    margin-top: 60px;
+}
+.padding-left-1{
+    padding-left: 35px;
+}
+.padding-left-2{
+    padding-left: 10px;
+}
+
+
+.nav-bars{
+    font-size: 30px;
+    align-content: flex-start;
+}
+.sign-in-button{
+    padding: 10px 25px;
+    background-color: #ff0000;
+    color: white;
+    border: transparent solid;
+    border-radius: 12px;
+}
+.button-2{ padding: 10px 25px;
+    background-color: #502314;
+    color: #f5ebdc;
+    border-radius: 12px;
+    border: transparent solid;
+
+}
+h3{
+    color: #502314;
+}
+a{
+    color: #502314
+}
+.main-text-1{
+    color: #502314;
+    font-weight: 1000px;
+    font-size: 90px;
+}
+.text-small{
+    font-size: 40px;
+    
+}
+.button-3{
+    padding: 14px 16px;
+    background-color: red;
+    color: white;
+    border: transparent solid;
+}
+.button-4{
+    padding: 14px 16px;
+    color: red;
+    background-color: white;
+    border: red;
+}
+@media(min-width:984){
+    .logo{
+        width: 20px;
+        display: none;
+    }
+}
